@@ -1,0 +1,25 @@
+Most items on this template are also part of the Definition of Done.
+
+- [ ] Is the pull request made with the pull request template
+- [ ] Do new dependencies do not break company rules (like licenses, versions, etc)
+- [ ] Is code coverage above 80% 
+- [ ] Do the code comply with the code style guide
+    - [ ] Most can be automaticly checked with sonarqube or pylint
+- [ ] Is the documentation updated
+  - [ ] user manual
+  - [ ] release notes
+- [ ] Code doesn't break the build
+- [ ] Backwards compatible (does not break existing uses of the software)
+- [ ] Code comply with security 
+    - [ ] OWASP top 10
+    - [ ] Authorisation
+    - [ ] Tooling like fortify/checkmarx, bandit did not find issues
+- [ ] Feature does implement the acceptance criteria's 
+- [ ] Links to a PBI, user story or bug report
+- [ ] Tests are written for Intergration or Acceptance tests
+- [ ] Unit tests for happy and unhappy paths
+- [ ] Complies with (company) architectural principles like:
+    - [ ] REST/SOAP
+    - [ ] Authentication
+    - [ ] Domain Driven Design
+    - [ ] Hexagonal architecture
