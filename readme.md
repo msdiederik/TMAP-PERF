@@ -1,6 +1,6 @@
 # Python Demo Application
 
-This is a calculator demo application used for the TMAP: High-performance quality engineering course
+This is a calculator demo application used for the TMAP: High-performance quality engineering course
 
 ## Requirements
 
