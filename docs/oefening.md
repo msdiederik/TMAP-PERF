@@ -2,6 +2,9 @@
 
 [github.com](https://www.github.com) acount. 
 
+[![Create account](http://img.youtube.com/vi/az17G21pmQs/0.jpg)](http://www.youtube.com/watch?v=az17G21pmQs "Create GitHub Account")
+
+
 # Create pull request
 
 1. Open the [repository](https://github.com/TMap-Community/TMAP-PERF/). 
@@ -118,6 +121,8 @@ Make sure you selected: **Commit directly to the ft/your_name** (your newly crea
 
 
 # Review pull request
+
+[![Review Pull Request](http://img.youtube.com/vi/JD5Mb9hltlw/0.jpg)](http://www.youtube.com/watch?v=JD5Mb9hltlw "Review pull request in GitHub")
 
 1. Go to the [pull request overiew](https://github.com/TMap-Community/TMAP-PERF/pulls)
 2. Go to the newly created pull request
