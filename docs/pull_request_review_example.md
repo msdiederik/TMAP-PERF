@@ -2,7 +2,7 @@ Most items on this template are also part of the Definition of Done.
 
 - [ ] Is the pull request made with the pull request template
 - [ ] Do new dependencies do not break company rules (like licenses, versions, etc)
-- [ ] Is code coverage above 80% 
+- [ ] Is code coverage (decision coverage) above 80% 
 - [ ] Do the code comply with the code style guide
     - [ ] Most can be automaticly checked with sonarqube or pylint
 - [ ] Is the documentation updated
