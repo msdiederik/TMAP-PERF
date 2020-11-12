@@ -1,24 +1,24 @@
-Most items on this template are also part of the Definition of Done.
+Remark: The items in this pull-request template are also part of the Definition of Done.
 
-- [ ] Is the pull request made with the pull request template
-- [ ] Do new dependencies do not break company rules (like licenses, versions, etc)
-- [ ] Is code coverage (decision coverage) above 80% 
-- [ ] Do the code comply with the code style guide
+- [ ] The pull request is made with the pull request template
+- [ ] New dependencies do not break company rules (like licenses, versions, etc)
+- [ ] The code coverage (decision coverage) is above 80% 
+- [ ] The code complies with the code style guide
     - [ ] Most can be automaticly checked with sonarqube or pylint
-- [ ] Is the documentation updated
+- [ ] The documentation has been updated
   - [ ] user manual
   - [ ] release notes
-- [ ] Code doesn't break the build
-- [ ] Backwards compatible (does not break existing uses of the software)
-- [ ] Code comply with security 
+- [ ] The code doesn't break the build
+- [ ] The code backwards compatible (does not break existing uses of the software)
+- [ ] The code complies with security 
     - [ ] OWASP top 10
     - [ ] Authorisation
     - [ ] Tooling like fortify/checkmarx, bandit did not find issues
-- [ ] Feature does implement the acceptance criteria's 
-- [ ] Links to a PBI, user story or bug report
-- [ ] Tests are written for Intergration or Acceptance tests
-- [ ] Unit tests for happy and unhappy paths
-- [ ] Complies with (company) architectural principles like:
+- [ ] The feature does implement the acceptance criteria
+- [ ] The code links to a product backlog item (PBI), user story or bug report
+- [ ] Relevant tests are available
+- [ ] The code contains sufficient comments
+- [ ] The code complies with architectural principles:
     - [ ] REST/SOAP
     - [ ] Authentication
     - [ ] Domain Driven Design
