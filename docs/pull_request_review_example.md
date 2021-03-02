@@ -4,7 +4,6 @@ Remark: The items in this pull-request template are also part of the Definition 
 - [ ] New dependencies do not break company rules (like licenses, versions, etc)
 - [ ] The code coverage (decision coverage) is above 80% 
 - [ ] The code complies with the code style guide
-    - [ ] Most can be automaticly checked with sonarqube or pylint
 - [ ] The documentation has been updated
   - [ ] user manual
   - [ ] release notes
@@ -22,4 +21,3 @@ Remark: The items in this pull-request template are also part of the Definition 
     - [ ] REST/SOAP
     - [ ] Authentication
     - [ ] Domain Driven Design
-    - [ ] Hexagonal architecture
