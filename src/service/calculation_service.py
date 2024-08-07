@@ -1,7 +1,7 @@
 """Module for the CalculationService class"""
 from tkinter import StringVar
 import divide_service as divide_service
-
+import add_service as add_service
 
 class CalculationService:
     """""Class for keeping track of, and evaluating calculations"""""
@@ -29,10 +29,12 @@ class CalculationService:
         try:
 
             # evaluate the expression/calculation
-            if "/" not in self.expression:
-                total = str(eval(self.expression))
-            else:
+            if "/" in self.expression:
                 total = str(divide_service.divide(self.expression))
+            if "+" in self.expression:
+                total = str(add_service.add(self.expression))
+            else:
+                total = str(eval(self.expression))
 
             if float(total) > 10:
                 total = total + " <:o)"
